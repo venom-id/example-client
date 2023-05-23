@@ -13,7 +13,7 @@ class V3NOM
             'data' => $arrdata
         );
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, "http://venom.my.id/api/v1/live");
+        curl_setopt($ch, CURLOPT_URL, "http://repcyber.com/api/v1/live");
         curl_setopt($ch, CURLOPT_POST, 1);
         curl_setopt(
             $ch,
